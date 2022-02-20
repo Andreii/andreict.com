@@ -10,7 +10,7 @@ cover:
 tags:
 - blog 
 editPost:
-  URL: "https://github.com/Andreii/andreict.com-blog/content"
+  URL: "https://github.com/Andreii/andreict.com-blog/blob/main/content"
   Text: "suggest changes" # edit text
   appendFilePath: true # to append file path to Edit link
 ---
