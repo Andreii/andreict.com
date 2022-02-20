@@ -15,6 +15,8 @@ editPost:
   appendFilePath: true # to append file path to Edit link
 ---
 
+![photo by https://www.pexels.com/@pixabay](images/blog.webp)
+
 Dear reader,
 
 I know, this doesn't seem to be much, but some content is coming soon.
