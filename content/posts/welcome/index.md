@@ -3,10 +3,10 @@ title: "Welcome to my blog!"
 date: 2022-02-1T11:03:27-06:00
 draft: false
 cover:
-    image: "images/blog.webp"
-    alt: "Blog scrabble letters"
-    relative: true
-    caption: "photo by https://www.pexels.com/@pixabay"
+image: "blog.webp"
+alt: "Blog scrabble letters"
+caption: "photo by https://www.pexels.com/@pixabay"
+relative: true 
 tags:
 - blog 
 editPost:
