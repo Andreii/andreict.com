@@ -1,0 +1,38 @@
+baseURL = "https://www.andreict.com/"
+languageCode = "en-us"
+paginate = 5
+theme = "hugo-PaperMod"
+title = "Andrei CT."
+keywords = "Blog,Software,Engineering,Cloud,Java,Rust,Go,Kubernetes,Microservices,Containers,Distributed-systems"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+title = "Andrei - Constantin Tanasache"
+description = "Andrei Tanasache Engineering Blog"
+keywords = [ "Blog", "Software", "Engineering", "Java" ]
+ShowReadingTime = true
+ShowShareButtons = false 
+DateFormat = "January 2, 2006"
+author = "Andrei - Constantin Tanasache"
+
+[params.homeInfoParams]
+  Title = "Hey you .. 😇"
+  Content = """
+Welcome, my name is **Andrei**, I am a passionate software developer.
+- . 
+- I gladly invite you to explore cool new things together!
+- .
+- [github.com/Andreii](https://github.com/Andreii) 
+"""

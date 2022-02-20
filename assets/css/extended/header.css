@@ -1,0 +1,3 @@
+.nav {
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+}
