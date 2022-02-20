@@ -22,6 +22,7 @@ env = "production"
 title = "Andrei - Constantin Tanasache"
 description = "Andrei Tanasache Engineering Blog"
 keywords = [ "Blog", "Software", "Engineering", "Java" ]
+defaultTheme = "dark"
 ShowReadingTime = true
 ShowShareButtons = false 
 DateFormat = "January 2, 2006"
