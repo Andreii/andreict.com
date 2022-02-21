@@ -2,11 +2,6 @@
 title: "Welcome to my blog!"
 date: 2022-02-1T11:03:27-06:00
 draft: false
-cover:
-image: "blog.webp"
-alt: "Blog scrabble letters"
-caption: "photo by https://www.pexels.com/@pixabay"
-relative: true 
 tags:
 - blog 
 editPost:
@@ -15,7 +10,11 @@ editPost:
   appendFilePath: true # to append file path to Edit link
 ---
 
-![photo by https://www.pexels.com/@pixabay](images/blog.webp)
+{{< figure 
+src="images/blog.webp" 
+alt="Blog image of scrabble letters" 
+caption="photo by [@pixabay](https://www.pexels.com/@pixabay)"
+width="100%" height="100%" >}}
 
 Dear reader,
 
