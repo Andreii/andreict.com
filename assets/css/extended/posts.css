@@ -1,3 +1,7 @@
 .post-entry:active {
     transform: none;
 }
+
+.post-tags a {
+    color: white;
+}

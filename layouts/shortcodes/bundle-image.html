@@ -1,0 +1,22 @@
+{{ $altText := .Get "alt"}}
+{{ $caption := .Get "caption"}}
+{{ $width := .Get "width"}}
+{{ $height := .Get "height"}}
+{{ with $.Page.Resources.GetMatch (.Get "name") }}
+<figure>
+    <a href="{{.RelPermalink}}">
+        <img
+                srcset="
+                {{ (.Resize "320x webp").RelPermalink }} 320w,
+                {{ (.Resize "720x webp").RelPermalink }} 720w"
+                src="{{ (.Resize "720x webp").RelPermalink }}"
+                alt="{{ $altText }}"
+                {{- with $width }} width="{{ . }}"{{ end -}}
+                {{- with $height }} height="{{ . }}"{{ end -}}
+        />
+    </a>
+    <figcaption><p>{{ ($caption | markdownify) }}</p></figcaption>
+</figure>
+{{ else }}
+could not find image
+{{ end }}

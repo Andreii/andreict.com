@@ -16,7 +16,7 @@ If you feel that you want to add something, feel free to make a pull request.
 ### Prerequisites
 To run this you need the following:
 - golang installed ([Link](https://go.dev/doc/install))
-- hugo cli installed ([Link](https://gohugo.io/getting-started/installing/))
+- hugo (+extended) cli installed ([Link](https://gohugo.io/getting-started/installing/))
 
 ### Deploy
 ```

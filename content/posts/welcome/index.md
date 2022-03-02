@@ -10,11 +10,10 @@ editPost:
   appendFilePath: true # to append file path to Edit link
 ---
 
-{{< figure 
-src="images/blog.webp" 
-alt="Blog image of scrabble letters" 
-caption="photo by [@pixabay](https://www.pexels.com/@pixabay)"
-width="100%" height="100%" >}}
+{{< bundle-image name="blog.jpg"
+alt="Blog image of scrabble letters"
+width="100%" height="100%"
+caption="photo by [@pixabay](https://www.pexels.com/@pixabay)" >}}
 
 Dear reader,
 
